@@ -1,21 +1,49 @@
+/* ============================================================
 
-body {
-    font-family: OPen Sans;
+	Theme Name:		Ural
+	Theme URI:		http://www.uraloezdemir.com
+	Author:			Ural Özdemir
+	Author URI:		http://www.uraloezdemir.com
+	License:		GNU General Public License version 3.0
+	License URI:	http://www.gnu.org/licenses/gpl-3.0.html
 
-}
-.btn {
-    border-radius: 3px;
-    background: transparent;
-    border: 1px solid #000;
-    padding: 8px 12px;
-}
-.btn:hover {
-    color: #fff;
-    background: #000;
-}
+/* ============================================================ */
 
-h3 {
-    border-top: 1px solid #cccccc;
-    padding-top: 30px;
-    margin-top: 30px;
-}
+    body {
+        font-family: OPen Sans;
+    }
+    h3 {
+        border-top: 1px solid #cccccc;
+        padding-top: 30px;
+        margin-top: 30px;
+    }
+
+/* ============================================================
+    BUTTONS
+/* ============================================================ */
+
+    .btn {
+        display: inline-block;
+        padding: 6px 12px;
+        margin-bottom: 0;
+        font-size: 14px;
+        font-weight: normal;
+        line-height: 1.42857143;
+        text-align: center;
+        white-space: nowrap;
+        vertical-align: middle;
+        -ms-touch-action: manipulation;
+        touch-action: manipulation;
+        cursor: pointer;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        background-image: none;
+        border: 1px solid transparent;
+        border-radius: 4px;
+    }
+    .btn:hover {
+        color: #fff;
+        background: #000;
+    }
