@@ -10,7 +10,13 @@
 /* ============================================================ */
 
     body {
-        font-family: OPen Sans;
+        font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    }
+    ::-webkit-scrollbar {
+        width: 8px;
+    }
+    ::-webkit-scrollbar-thumb {
+        background: rgba(0, 0, 0, 0.8);
     }
     h3 {
         border-top: 1px solid #cccccc;
