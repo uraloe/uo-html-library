@@ -2,7 +2,7 @@
 
 	Theme Name:		Ural
 	Theme URI:		http://www.uraloezdemir.com
-	Author:			Ural Özdemir
+	Author:			Ural Oezdemir
 	Author URI:		http://www.uraloezdemir.com
 	License:		GNU General Public License version 3.0
 	License URI:	http://www.gnu.org/licenses/gpl-3.0.html
@@ -10,7 +10,13 @@
 /* ============================================================ */
 
     body {
-        font-family: OPen Sans;
+        font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    }
+    ::-webkit-scrollbar {
+        width: 8px;
+    }
+    ::-webkit-scrollbar-thumb {
+        background: rgba(0, 0, 0, 0.8);
     }
     h3 {
         border-top: 1px solid #cccccc;
